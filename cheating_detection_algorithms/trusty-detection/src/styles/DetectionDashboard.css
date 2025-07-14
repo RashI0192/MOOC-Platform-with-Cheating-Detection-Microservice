@@ -1,0 +1,84 @@
+.dashboard {
+    padding: 1rem;
+    font-family: sans-serif;
+  }
+  
+  .paste-box textarea,
+  .similarity-box textarea {
+    width: 100%;
+    height: 80px;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .similarity-box {
+    margin: 2rem 0;
+  }
+  
+  .similarity-box textarea {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  .similarity-score {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .alert-banner {
+    background: #f44336;
+    color: white;
+    padding: 0.75rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  
+  .detector-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    background: #f9f9f9;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  
+  .detector-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .detector-icon {
+    margin-right: 0.5rem;
+  }
+  
+  .detector-events {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+  
+  .detector-event {
+    margin-bottom: 0.4rem;
+  }
+  
+  .detector-none {
+    color: #999;
+  }
+  
+  .preview-image img {
+    max-width: 100%;
+    max-height: 100px;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
