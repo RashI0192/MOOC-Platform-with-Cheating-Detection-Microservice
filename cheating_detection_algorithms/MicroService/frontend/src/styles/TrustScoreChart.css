@@ -1,0 +1,11 @@
+.trust-score-chart .bar {
+    background: #eee;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  .trust-score-chart .fill {
+    background: green;
+    height: 100%;
+  }

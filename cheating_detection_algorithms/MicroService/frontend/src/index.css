@@ -1,0 +1,47 @@
+/* Add this at the bottom of src/index.css or your global CSS file */
+.intro-card {
+  text-align: center;
+  padding: 2rem;
+  background: #fdfdfd;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.intro-card h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.start-btn {
+  display: inline-block; /* makes margin work properly */
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 18px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem; /* ⬅ spacing below image */
+  transition: background-color 0.2s ease;
+}
+
+.start-btn:hover {
+  background-color: #45a049;
+}
+
+.intro-card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.thumb {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+

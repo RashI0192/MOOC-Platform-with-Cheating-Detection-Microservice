@@ -1,0 +1,20 @@
+.violation-bar-chart .bar-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .violation-bar-chart .bar {
+    background: #eee;
+    height: 15px;
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .violation-bar-chart .fill {
+    background: red;
+    height: 100%;
+  }
+  
