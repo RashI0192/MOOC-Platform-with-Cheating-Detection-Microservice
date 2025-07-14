@@ -1,0 +1,5 @@
+.sidebar { width:260px;background:#fafafa;border-right:1px solid #eee;padding:1rem;overflow:auto; }
+.module-title { font-weight:600;margin:.5rem 0; }
+.sidebar ul { list-style:none;padding-left:1rem; }
+.sidebar li { cursor:pointer;margin:.25rem 0;color:#555; }
+.sidebar li.active { font-weight:700;color:#4f46e5; }
